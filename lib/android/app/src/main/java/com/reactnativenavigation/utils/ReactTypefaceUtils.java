@@ -96,12 +96,12 @@ public class ReactTypefaceUtils {
 
     int want = 0;
     if ((weight == Typeface.BOLD)
-        || ((oldStyle & Typeface.BOLD) != 0 && weight == ReactTextShadowNode.UNSET)) {
+        || ((oldStyle & Typeface.BOLD) != 0 && weight == ReactConstants.UNSET)) {
       want |= Typeface.BOLD;
     }
 
     if ((style == Typeface.ITALIC)
-        || ((oldStyle & Typeface.ITALIC) != 0 && style == ReactTextShadowNode.UNSET)) {
+        || ((oldStyle & Typeface.ITALIC) != 0 && style == ReactConstants.UNSET)) {
       want |= Typeface.ITALIC;
     }
 
