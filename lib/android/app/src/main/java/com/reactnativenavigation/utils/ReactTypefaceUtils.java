@@ -20,6 +20,7 @@ import androidx.annotation.Nullable;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.views.text.ReactFontManager;
 import com.facebook.react.views.text.ReactTextShadowNode;
+import com.facebook.react.common.ReactConstants;
 import java.util.ArrayList;
 import java.util.List;
 
