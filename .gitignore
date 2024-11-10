@@ -246,3 +246,10 @@ Mock.js
 Mock.d.ts
 
 Gemfile.lock
+
+# Yarn and pnp
+.pnp.*
+.yarn
+.yarnrc.yml
+
+
